@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <title>第1次 HEXO--换电脑编辑，指南 | YYwishp博客</title>
+  <meta name="author" content="YYwishp" />
+
+  
+  <meta name="description" content="记录点滴" />
+  
+
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <meta property="og:title" content="第1次 HEXO--换电脑编辑，指南" />
+  <meta property="og:site_name" content="YYwishp博客" />
+
+  
+  
+
+  
+    <meta property="og:image" content="undefined" />
+  
+
+  
+  <link href="/css/images/favicon.ico" rel="icon" />
+  
+
+  <link rel="alternate" href="/atom.xml" title="YYwishp博客" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">YYwishp博客</a></h1>
+  <h2><a href="/">记录点滴</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-03-03T13:29:56.000Z"><a href="/2016/03/03/第1次，HEXO--换电脑编辑/">2016-03-03</a></time>
+      
+      
+  
+    <h1 class="title">第1次 HEXO--换电脑编辑，指南</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>首先在A电脑上把【HEXO】文件整个上传到Github上，具体操作如下</p>
+<hr>
+<ol>
+<li><p>鼠标右击【HEXO】文件夹，选中Git在这里创建版本库</p>
+<p> <img src="http://i.imgur.com/QIX3nDR.jpg" alt=""></p>
+<a id="more"></a></li>
+<li><p>点击确定</p>
+<p> <img src="http://i.imgur.com/OITj2Rc.png" alt=""></p>
+</li>
+<li><p>点击确定</p>
+<p> <img src="http://i.imgur.com/RDj1eBR.png" alt=""></p>
+</li>
+<li><p>右击选中TortoiseGit（T），然后选中（添加）</p>
+<p> <img src="http://i.imgur.com/eQ1HbPj.jpg" alt=""></p>
+</li>
+<li><p>全选，确定</p>
+<p> <img src="http://i.imgur.com/u4v63wD.png" alt=""></p>
+</li>
+<li><p>提交 </p>
+<p> <img src="http://i.imgur.com/hCuP5MV.png" alt=""></p>
+</li>
+<li><p>写描述，提交</p>
+<p> <img src="http://i.imgur.com/FnxFZPr.png" alt=""></p>
+</li>
+<li><p>已经提交到本地了，接下来push到Github</p>
+<p> <img src="http://i.imgur.com/CKI376T.png" alt=""></p>
+</li>
+<li><p>push到github</p>
+<p> <img src="http://i.imgur.com/qmQ3WaK.jpg" alt=""></p>
+</li>
+<li><p>输入github地址</p>
+<p><img src="http://i.imgur.com/KdzEzpj.png" alt=""><br><img src="http://i.imgur.com/k6K8RHG.png" alt=""></p>
+</li>
+<li><p>输入Github用户名字，不是邮箱</p>
+<p><img src="http://i.imgur.com/87ogxdY.png" alt=""></p>
+</li>
+<li><p>输入Github密码</p>
+<p><img src="http://i.imgur.com/CSFE6ue.png" alt=""></p>
+</li>
+<li>确定，有的时候会有问题：git 未能顺利结束 (退出码 1)<br>问题出现的原因很简单：就是在github创建仓库的时候，已经有文件了比如说有Readme文件，这个时候就要先在本地更新仓库，然后在push仓库就没有问题啦。还有一种解决方法：就是在github上创建仓库的时候，什么文件都不添加，就是纯空的仓库，接下来在本地第一次提交的时候就不会有问题了。<br><img src="http://i.imgur.com/C6aB81B.png" alt=""></li>
+<li>————————这个时候我们的【HEXO】整个文件就已经同步到github上了，———————————-</li>
+</ol>
+<p>#接下来是B电脑从github上pull拉的过程</p>
+<ol>
+<li><p>在B电脑上新建一个文件夹。然后右击选中Git在这里创建版本库</p>
+<p> <img src="http://i.imgur.com/QIX3nDR.jpg" alt=""></p>
+</li>
+<li><p>点击确定</p>
+<p> <img src="http://i.imgur.com/OITj2Rc.png" alt=""></p>
+</li>
+<li><p>点击确定</p>
+<p> <img src="http://i.imgur.com/RDj1eBR.png" alt=""></p>
+</li>
+<li><p>右击选中TortoiseGit（T），然后选中拉取（pull）</p>
+<p> <img src="http://i.imgur.com/1MCoQ8c.jpg" alt=""></p>
+</li>
+<li><p>然后去github上把仓库的地址复制下来</p>
+<p> <img src="http://i.imgur.com/YwpEsfH.png" alt=""></p>
+</li>
+<li><p>把复制的地址粘贴到</p>
+<p> <img src="http://i.imgur.com/TyHKV9s.png" alt=""></p>
+</li>
+<li><p>或者点击管理远端</p>
+<p> <img src="http://i.imgur.com/nzzwT90.png" alt=""></p>
+</li>
+<li><p>在URL处粘贴地址</p>
+<p> <img src="http://i.imgur.com/wxjCcD4.png" alt=""></p>
+</li>
+<li><p>origin就是刚才保存的URL命名</p>
+<p> <img src="http://i.imgur.com/o0DSmal.png" alt=""></p>
+</li>
+<li><p>点击确定之后，成功。</p>
+<p><img src="http://i.imgur.com/JbfMiql.png" alt=""></p>
+</li>
+<li><p>pull拉下来的文件夹是这样的：</p>
+<p><img src="http://i.imgur.com/CIihTF4.png" alt=""></p>
+</li>
+<li><p>但是大家先别高兴太早，这个时候还不能直接写博客，不幸可以试试看<br>在【HEXO】中右击选中Git Bash Here</p>
+<p><img src="http://i.imgur.com/1M5OHSJ.png" alt=""></p>
+</li>
+<li><p>在命令行中输入hexo，如果跳出下面的就代表不能直接使用，</p>
+<p><img src="http://i.imgur.com/dCQhOGc.png" alt=""></p>
+</li>
+<li><p>说明我们要先敲这行代码：npm install hexo –save<br>敲完后要等一会，他会自己进行处理，处理完后是这样的，<br>上面省略一部分，太长了…….就截一部分。</p>
+<p><img src="http://i.imgur.com/bYZnAlw.png" alt=""></p>
+</li>
+<li><p>接下来安装依赖包，<br>输入命令 ：npm install<br>注意：有些同学忘了，敲上面这段代码，直接hexo g，然后再hexo s，会发现开不了服务，本地也不能访问。</p>
+<p><img src="http://i.imgur.com/WCryyXz.png" alt=""></p>
+</li>
+<li><p>安装依赖包之后是这样的<br>下面一大段安装的东西，看不懂，反正就是安装了，不相信可以输入<br>hexo g，然后hexo s试试能不能访问本地的localhost：4000</p>
+<p><img src="http://i.imgur.com/99HbjpH.png" alt=""></p>
+</li>
+<li><p>输入hexo g，然后再输入hexo s之后是这样的，<br>说明本地可以访问了。接下来就是部署到github上</p>
+<p><img src="http://i.imgur.com/eakfl3a.png" alt=""></p>
+</li>
+<li><p>我们先把服务停了，Ctrl c就可以了<br>创建新的文章，开始写文章<br>然后输入hexo new 第4次<br>在E:\HEXO\source_posts路径下创建第4次.md</p>
+<p><img src="http://i.imgur.com/t9FVYi4.png" alt=""></p>
+</li>
+<li><p>进入第4次，就可以写文章了……</p>
+<p><img src="http://i.imgur.com/tRYSs08.png" alt=""></p>
+</li>
+<li><p>写完之后先在本地看看怎么样<br>在命令行<br>输入hexo g        —生成静态文件<br>输入hexo s        —开启服务<br>开启浏览器访问localhost：4000<br>有的时候可能4000的端口被占用了，打不开<br>解决办法更换服务端口：输入：hexo server -p 4001</p>
+<p><img src="http://i.imgur.com/cWvLYOD.jpg" alt=""></p>
+</li>
+<li><p>这就代表服务搭建好了，可以写文章了，最后一步就是部署到github上。<br>为了确保能连上github，首先进入【HEXO】文件夹中找到_config.yml文件<br>打开看看，是不是如下：</p>
+<p><img src="http://i.imgur.com/LE0FuQu.png" alt=""></p>
+</li>
+<li><p>跟上面一样就ok；接下来就是输入以下命令：<br>hexo g   —生成静态文件<br>hexo d   —部署<br>部署的时候会提示输入github的用户名，这里不是邮箱地址。<br>还有输入密码。</p>
+<p><img src="http://i.imgur.com/yTwtyKm.png" alt=""></p>
+</li>
+<li><p>注意：如果不行，解决方法如下：<br>输入下面代码：<br>npm install hexo-deployer-git  - -save<br>——–为了能够使Hexo部署到GitHub上，需要安装一个插件<br>然后：执行<br>hexo g<br>hexo d<br>这下就可以去浏览器输入:用户名.github.io进行访问啦！！<br>有人会说域名太长记不住，这里可以自己绑定域名<br>方法如下：<br>接下来就是绑定域名<br>在【HEXO】文件夹中的【public】文件夹内新建一个CNAME文件（文件名叫CNAME，没有文件后缀）    </p>
+<p><img src="http://i.imgur.com/Yr4YOIW.png" alt=""></p>
+<p>【public】文件夹内部如下</p>
+<p><img src="http://i.imgur.com/erqbNqK.png" alt=""></p>
+<p>CNAME文件中是域名，<strong><em>yywishp.com</em></strong></p>
+<p><img src="http://i.imgur.com/F2wCvRi.jpg" alt=""></p>
+<p> 等待更改生效，一般几分钟就可以使用你自定义的域名进行访问了。</p>
+</li>
+</ol>
+<p>———————————尼玛终于写完了教程我靠( ‵o′)凸————————–</p>
+
+      
+    </div>
+    
+    <footer>
+        <div class="alignright">
+          
+          <a href='javascript:void(0)' class="share-link bdsharebuttonbox" data-cmd="more">分享</a>
+        </div>
+        
+        
+        <!-- partial('post/share') -->
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+
+  
+<div class="widget tag">
+  <h3 class="title">最新文章</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2016/03/04/第3次/">第3次</a>
+      </li>
+    
+      <li>
+        <a href="/2016/03/03/第2次 这是关于怎么使用HEXO的初级教程/">第2次 这是关于怎么使用HEXO的初级教程</a>
+      </li>
+    
+      <li>
+        <a href="/2016/03/03/第1次，HEXO--换电脑编辑/">第1次 HEXO--换电脑编辑，指南</a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">标签</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/HEXO/">HEXO</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tagcloud">
+  <h3 class="title">标签云</h3>
+  <div class="entry">
+    <a href="/tags/HEXO/" style="font-size: 10px;">HEXO</a>
+  </div>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  <p>
+  
+  &copy; 2016 YYwishp
+  
+  All rights reserved.</p>
+  <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</div>
+<div class="clearfix"></div>
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script></footer>
+  <script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<div id='bg'></div>
+</body>
+</html>
